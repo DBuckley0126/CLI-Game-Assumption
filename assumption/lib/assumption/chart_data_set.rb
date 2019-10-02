@@ -18,10 +18,13 @@ class Assumption::ChartDataSet
   attr_accessor :chart_array, :year
 
   def initialize(year)
-    #binding.pry
     @year = year
-    @chart_array = Assumption::DataImporter.new(year).output
+    @chart_song_array = Assumption::DataImporter.new(year).output
     @@all << self
+  end
+
+  def random
+    @chart_song_array.sample
   end
 
 end

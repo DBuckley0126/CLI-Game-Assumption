@@ -12,12 +12,12 @@ class Assumption::DataImporter
 
 
   def transform(doc)
-    chart_array = []
+    obj_array = []
     doc.css("table.sortable tbody tr").each do |row|
-      row_array = [row.css("td")[0].text.to_i, row.css("td")[1].text, row.css("td")[2].text]
-      chart_array << row_array
+      song = Assumption::Song.new(row.css("td")[0].text.to_i, row.css("td")[1].text, row.css("td")[2].text)
+      obj_array << song
     end
-    chart_array
+    obj_array
   end
 
 end
