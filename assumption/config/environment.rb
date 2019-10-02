@@ -3,4 +3,5 @@
 #require 'open-uri'
 
 require_relative '../lib/assumption/cli'
+require_relative '../lib/assumption/question'
 require_relative '../lib/assumption/version'

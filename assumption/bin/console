@@ -2,6 +2,7 @@
 
 require "bundler/setup"
 require "assumption"
+require "nokogiri"
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
@@ -10,7 +11,11 @@ require "assumption"
 # require "pry"
 # Pry.start
 
-require "irb"
-IRB.start(__FILE__)
+var = Assumption::ChartData.new(2016)
+
+require "pry"
+Pry.start
+
+
 
 
