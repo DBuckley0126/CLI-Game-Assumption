@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in assumptions.gemspec
+# Specify your gem's dependencies in assumption.gemspec
 gemspec
+
+

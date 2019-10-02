@@ -1,8 +1,7 @@
 # assumption
+Flatiron: CLI Scrapper Game
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/assumption`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A Command-line interface game which the user is presented with a phrase and they have to assume what autocomplete result is first under a time limit to get to the next stage.
 
 ## Installation
 
