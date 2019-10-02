@@ -1,6 +1,6 @@
-require "assumptions/version"
+require "assumption/version"
 
-module Assumptions
+module Assumption
   class Error < StandardError; end
   # Your code goes here...
 end
