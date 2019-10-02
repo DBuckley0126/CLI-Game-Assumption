@@ -11,8 +11,7 @@ require "nokogiri"
 # require "pry"
 # Pry.start
 
-var = Assumption::ChartDataSet.find_or_create_by_year(2016)
-game = Assumption::Game.new(2016)
+#var = Assumption::CLI.new.call
 
 require "pry"
 Pry.start
