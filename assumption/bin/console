@@ -11,7 +11,7 @@ require "nokogiri"
 # require "pry"
 # Pry.start
 
-var = Assumption::ChartData.new(2016)
+var = Assumption::ChartDataSet.find_or_create_by_year(2016)
 
 require "pry"
 Pry.start
