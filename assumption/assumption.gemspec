@@ -4,7 +4,7 @@ require "assumption/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "assumption"
-  spec.version       = Assumptions::VERSION
+  spec.version       = Assumption::VERSION
   spec.authors       = ["DBuckley0126"]
   spec.email         = ["dannyboy.msn@hotmail.com"]
 
