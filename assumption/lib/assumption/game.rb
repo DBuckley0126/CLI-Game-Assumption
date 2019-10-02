@@ -2,16 +2,20 @@ class Assumption::Game
 
   @@all = []
 
-  attr_reader :year, :chart_data
-
-  def initialize(year)
-    @year = year
-    @level = 1
-    @chart_data_set = Assumption::ChartDataSet.find_or_create_by_year(year)
-    @@all << self
+  def self.all
+    @@all
   end
 
-  def play
+  attr_reader :chart_data_set, :current_song
+
+  def initialize(year)
+    @chart_data_set = Assumption::ChartDataSet.find_or_create_by_year(year)
+    @level = 1
+    @@all << self
+    @current_song = @chart_data_set.random
+  end
+
+  def level
     
   end
 
