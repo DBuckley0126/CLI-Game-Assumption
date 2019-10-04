@@ -2,6 +2,8 @@ require 'tco'
 class Assumption::CLI
 
   def start_sequence
+    system "clear"
+    system "cls"
     title
     self.begin
   end
