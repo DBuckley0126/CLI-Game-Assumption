@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "minitest", "~> 5.0"
   spec.add_development_dependency "pry", ">= 0"
   spec.add_development_dependency "nokogiri", ">= 0"
+  spec.add_development_dependency 'tco', '~> 0.1.8'
 end
