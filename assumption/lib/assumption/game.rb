@@ -1,3 +1,4 @@
+require "tco"
 class Assumption::Game
 
   @@all = []
@@ -24,7 +25,7 @@ class Assumption::Game
 
 
   def start_level
-    puts "Level #{@level}."
+    puts "Level #{@level}.".fg("#EF1E10")
     puts "In #{year},"
     puts "was #{@next_song.artist} - #{@next_song.name}"
     puts "higher or lower in the chart"

@@ -3,5 +3,5 @@
 require_relative '../lib/assumption'
 
 #var = Assumption::ChartData.new(2016)
-Assumption::CLI.new.call
+Assumption::CLI.new.start_sequence
 
