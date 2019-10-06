@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "assumption"
-require "nokogiri"
+require "/mnt/c/users/Danny.Dannys_PC/dev/flatiron/CLI-Data-Gem-Project/assumption/config/environment.rb"
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
@@ -14,7 +13,7 @@ require "nokogiri"
 #var = Assumption::CLI.new.call
 
 require "pry"
-Pry.start
+
 
 
 

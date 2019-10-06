@@ -34,4 +34,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "pry", ">= 0"
   spec.add_dependency "nokogiri", ">= 0"
   spec.add_dependency 'tco', '~> 0.1.8'
+  spec.add_dependency 'timeout'
 end
