@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require "bundler/setup"
-require "/mnt/c/users/Danny.Dannys_PC/dev/flatiron/CLI-Data-Gem-Project/assumption/config/environment.rb"
+require 'bundler/setup'
+require '/mnt/c/users/Danny.Dannys_PC/dev/flatiron/CLI-Data-Gem-Project/assumption/config/environment.rb'
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
@@ -10,9 +10,7 @@ require "/mnt/c/users/Danny.Dannys_PC/dev/flatiron/CLI-Data-Gem-Project/assumpti
 # require "pry"
 # Pry.start
 
-#var = Assumption::CLI.new.call
-
-require "pry"
+require 'pry'
 
 
 
