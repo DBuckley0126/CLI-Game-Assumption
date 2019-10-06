@@ -1,4 +1,3 @@
-
 class Assumption::CLI
 
   include UniFunctions

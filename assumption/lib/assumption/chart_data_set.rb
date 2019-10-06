@@ -1,7 +1,3 @@
-require "pry"
-require "nokogiri"
-require "open-uri"
-
 class Assumption::ChartDataSet
 
   @@all = []

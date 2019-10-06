@@ -1,7 +1,9 @@
 #require 'pry'
-#require 'nokogiri'
-#require 'open-uri'
+
 require 'tco'
+require "open-uri"
+require "nokogiri"
+
 require_relative '../lib/assumption'
 require_relative '../lib/assumption/concerns/uni_functions'
 require_relative '../lib/assumption/cli'

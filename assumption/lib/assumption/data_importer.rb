@@ -1,6 +1,3 @@
-require "open-uri"
-require "nokogiri"
-
 class Assumption::DataImporter
 
   attr_reader :output

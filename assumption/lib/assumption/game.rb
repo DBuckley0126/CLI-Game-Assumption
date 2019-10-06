@@ -1,4 +1,3 @@
-require "tco"
 class Assumption::Game
 
   @@all = []
