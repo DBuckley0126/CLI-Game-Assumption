@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/assumption'
+require_relative '../config/environment'
 
-#var = Assumption::ChartData.new(2016)
+
 Assumption::CLI.new.start_sequence
 

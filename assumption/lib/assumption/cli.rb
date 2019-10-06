@@ -1,9 +1,10 @@
-require 'tco'
+
 class Assumption::CLI
 
+  include UniFunctions
+
+
   def start_sequence
-    system "clear"
-    system "cls"
     title
     self.begin
   end
@@ -11,9 +12,7 @@ class Assumption::CLI
   def begin
     puts 'Type the chart year you would like to play between 1954-2019'
     
-
     self.user_input
-
 
     puts 'Would you like to play again? (y/n)'
     @input = gets.strip.downcase
