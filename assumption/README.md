@@ -1,7 +1,7 @@
 # assumption
 Flatiron: CLI Scrapper Game
 
-A Command-line interface game which the user is presented with a phrase and they have to assume what autocomplete result is first under a time limit to get to the next stage.
+A Command-line interface game which the user can select a year and play assume if a song is higher or lower in the chart.
 
 ## Installation
 
@@ -20,8 +20,18 @@ Or install it yourself as:
     $ gem install assumption
 
 ## Usage
+Assumption
 
-TODO: Write usage instructions here
+You will be promted to enter a year between 1952 - 2019.
+Press enter and you will be shown 2 songs from the top 100 chart music from that year.
+
+You can enter 'h' to say that the second song is higher up in the chart than the first presented song,
+or you can enter 'l' to say that the second song is lower in the chart than the first presented song.
+
+If you are correct, you will go up a level.
+The aim of the game is to get to the highest level.
+
+If you loose, you can replay the game by pressing 'y' when prompted or you can press 'n' to quit game.
 
 ## Development
 
