@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    assumption (1.0.0)
+    assumption (1.0.2)
       bundler (~> 2.0)
       minitest (~> 5.0)
       nokogiri
