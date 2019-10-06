@@ -3,7 +3,8 @@ require 'tco'
 require "open-uri"
 require "nokogiri"
 require 'io/console'
-require 'timeout'
+require 'net/http'
+require 'pry'
 
 require_relative '../lib/assumption'
 require_relative '../lib/assumption/concerns/uni_functions'

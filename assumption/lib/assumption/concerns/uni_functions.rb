@@ -33,18 +33,19 @@ module UniFunctions
     puts ""
   end
 
+
+
   def get_char
     state = `stty -g`
     `stty raw -echo -icanon isig`
-
+  
     Signal.trap("INT") do # SIGINT = control-C
       exit
     end
-    
+      
     self.input = STDIN.getc.chr
-  ensure
+    ensure
     `stty #{state}`
   end
 
-  
 end

@@ -2,8 +2,8 @@ class Assumption::Game
 
   include UniFunctions
 
+
   @@all = []
-  @@id_count = 0
 
   def self.all
     @@all
@@ -14,7 +14,6 @@ class Assumption::Game
   attr_reader :year, :chart_data_set, :id
 
   def initialize(year)
-    @id = @@id_count + 1
     @year = year
     @chart_data_set = Assumption::ChartDataSet.find_or_create_by_year(year)
     @level = 1
@@ -25,7 +24,7 @@ class Assumption::Game
     start_level
   end
 
-
+  private
 
   def start_level
     
@@ -74,6 +73,7 @@ class Assumption::Game
     @level += 1
     @current_song = @next_song
     @next_song = @chart_data_set.random
+    puts ""
     puts "Press any key to continue"
     get_char
     start_level
@@ -95,7 +95,7 @@ class Assumption::Game
     end
 
     puts "You got to level #{@level} for the year #{year}..."
-
+    puts ""
   end
 
   def answer_input
