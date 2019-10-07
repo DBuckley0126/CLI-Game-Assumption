@@ -20,6 +20,7 @@ Or install it yourself as:
     $ gem install assumption
 
 ## Usage
+Assumption
 
 You will be promted to enter a year between 1952 - 2019.
 Press enter and you will be shown 2 songs from the top 100 chart music from that year.
