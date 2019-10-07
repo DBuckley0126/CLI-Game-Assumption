@@ -10,14 +10,14 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Flatiron: CLI Scrapper Game"
   spec.description   = "A Command-line interface game which the user can select a year and play assume if a song is higher or lower in the chart"
-  spec.homepage      = "https://rubygems.org/gems/a"
+  spec.homepage      = "https://github.com/DBuckley0126/CLI-Game-Assumption"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
-  spec.metadata["homepage_uri"] = "https://rubygems.org/gems/a"
-  spec.metadata["source_code_uri"] = "https://github.com/DBuckley0126/CLI-Data-Gem-Project"
-  spec.metadata["changelog_uri"] = "https://github.com/DBuckley0126/CLI-Data-Gem-Project"
+  spec.metadata["homepage_uri"] = "https://github.com/DBuckley0126/CLI-Game-Assumption"
+  spec.metadata["source_code_uri"] = "https://github.com/DBuckley0126/CLI-Game-Assumption"
+  spec.metadata["changelog_uri"] = "https://github.com/DBuckley0126/CLI-Game-Assumption"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
